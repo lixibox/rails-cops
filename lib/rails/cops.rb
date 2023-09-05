@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
-require_relative "cops/version"
+require 'rubocop'
+require_relative 'cops/version'
+require_relative 'cops/model_custom_validation_method_name'
 
 module Rails
   module Cops
